@@ -1,45 +1,38 @@
 enable: true
-topTitle: Product Categories
+topTitle: Signature Plans
 title: >
-  ## Diversity in Products
+  ## Experience Holistic Wellness
 
-  From tasty dried fruits to nutritious nuts and saffron are provided by
-  Helmani.
+  Discover personalized programs rooted in Ayurveda, modern nutrition, and mindful movement.
 service:
   - content: >
-      #### Pistachios 
+      #### Weight Management Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Achieve sustainable weight loss through metabolism-boosting guidance, mindful eating, and weekly progress support.
     image: images/service/pistachio.png
   - content: >
-      #### Raisins
+      #### PCOD/PCOS Reversal Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Balance hormones naturally with Ayurvedic herbs, sattvic foods, and lifestyle support for healthier cycles.
     image: images/service/raisins.png
   - content: >
-      #### Dates 
+      #### Diabetes Management Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Regulate blood sugar with holistic nutrition, cravings control, and lifestyle habits designed for long-term health.
     image: images/service/dates.png
   - content: >
-      #### Walnuts
+      #### Infertility Therapy Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Improve reproductive vitality with nutrition, herbal protocols, and supportive coaching for conception readiness.
     image: images/service/walnut.png
   - content: >
-      #### Saffron
+      #### Stress Relief & Wellness Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Calm the nervous system with diet, herbs, breathwork, and mindful self-care to restore balance.
     image: images/service/saffron.png
   - content: >
-      #### Barberries
+      #### Holistic Wellness Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Transform your health with an integrated plan of diet, movement, detox, and mental wellness.
     image: images/service/barberry.png
 _template: service_template

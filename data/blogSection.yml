@@ -1,10 +1,9 @@
 enable: true
-topTitle: Blog
+topTitle: Healing Naturally – with Dt. Niharika
 title: >
-  ## Recent Article
+  ## Wellness Insights
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
-buttonName: See All Posts
+  Explore natural remedies, nutrition wisdom, and lifestyle tips to support your body from within.
+buttonName: View All Articles
 buttonTarget: blog
 _template: blog_section_template

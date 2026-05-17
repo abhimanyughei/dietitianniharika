@@ -81,15 +81,12 @@ map:
   pinImage: images/pin.png
 social:
   - icon: fa-facebook-official
-    url: "https://www.facebook.com/"
+    url: "https://www.facebook.com/fitnessvibeindia"
     weight: 1
-  - icon: fa-linkedin-square
-    url: "https://www.linkedin.com/"
+  - icon: fa-instagram
+    url: "https://www.instagram.com/dt.niharika_singh/"
     weight: 2
-  - icon: fa-pinterest-square
-    url: "https://www.pinterest.com/"
+  - icon: fa-whatsapp
+    url: "https://wa.me/8305779442"
     weight: 3
-  - icon: fa-twitter-square
-    url: "https://twitter.com/"
-    weight: 4
 _template: parameters_template

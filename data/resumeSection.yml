@@ -1,62 +1,50 @@
-# In the Name of God, the Originator the Creative
-# TODO: use semantic names for data fields
----
 enable: true
-topTitle: Our Certificates
+topTitle: Our Impact
 title: >
-  ## Quality Ensured
+  ## Wellness Milestones
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-
-
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
-tab1Name: Company
-tab2Name: Product
+  Over 9000 clients, 7600 tailored plans and 5100 success stories of balanced living.
+tab1Name: Stats
+tab2Name: Credentials
 tab1Target: education
 tab2Target: experience
 
 education:
   - content: >
-      #### Product No.1
+      #### 9000+ Clients Served
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      Personalized guidance for every wellness journey.
     image: /images/certificates/halal.jpg
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
+    url: https://www.dietitianniharika.in/
   - content: >
-      #### ISO 2001
+      #### 7600+ Tailored Plans
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      Customized programs rooted in Ayurveda and modern nutrition.
     image: /images/certificates/images.png
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
+    url: https://www.dietitianniharika.in/
   - content: >
-      #### FDA 3942
+      #### 5100+ Success Stories
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      Life-changing results across weight, hormones, fertility and stress.
     image: /images/certificates/iso.jpg
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
-  - content: >
-      #### CEP ARAG
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-    image: /images/certificates/Organic.png
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
+    url: https://www.dietitianniharika.in/
 
 experience:
   - content: >
-      #### Umbrella co.
+      #### Nutritionist in Mohali
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      Supporting clients locally and online with science-based wellness.
     image: /images/certificates/Organic.png
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
+    url: https://www.dietitianniharika.in/
   - content: >
-      #### Aperture Science
+      #### Ayurvedic Wellness
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      Programs designed for hormonal balance, metabolic health and stress relief.
     image: /images/certificates/enamad.png
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
+    url: https://www.dietitianniharika.in/
   - content: >
-      #### ACME Inc.
+      #### Personalized Support
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      Weekly check-ins, meal guidance and lifestyle coaching for sustainable results.
     image: /images/certificates/halal.jpg
-    url: https://trustseal.enamad.ir/?id=288479&Code=O8micNNDSNWcTh9xIOhQ
+    url: https://www.dietitianniharika.in/

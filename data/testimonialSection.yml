@@ -1,27 +1,22 @@
 enable: true
-topTitle: Testimonials
+topTitle: Success Stories
 title: |
-  ## What Our Partners Say About Us?
+  ## What Our Clients Say
+  Real results from personalized diet, fitness, and wellness programs.
 testimonial:
-  - name: Ryan Cook
+  - name: Priya K.
     comment: >-
-      Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-      consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore
-      dolore magna.
-    time: "Jan 20, 2020"
+      Fitness Vibe helped me reverse PCOS symptoms with a plan that felt natural and easy to follow. I finally have regular cycles and more energy.
+    time: "Apr 2025"
     star: 5
-  - name: Justin Trudo
+  - name: Sanya R.
     comment: >-
-      Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-      consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore
-      dolore magna.
-    time: "Jan 16, 2020"
-    star: 4
-  - name: Franky Filth
+      The diabetes management program brought my blood sugar under control while still enjoying real meals. The team’s support made all the difference.
+    time: "May 2025"
+    star: 5
+  - name: Aarti S.
     comment: >-
-      Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-      consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore
-      dolore magna.
-    time: "Mar 08, 2020"
-    star: 3
+      I lost weight without feeling deprived. Dt. Niharika’s guidance blends Ayurvedic wisdom with modern nutrition beautifully.
+    time: "Jun 2025"
+    star: 5
 _template: testimonial_template

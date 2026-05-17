@@ -1,23 +1,20 @@
 ---
-title: Special Nuts Package
-date: 2020-07-13T12:49:27.000+06:00
+title: Weight Management Program
+date: 2025-06-01T09:00:00+05:30
 thumbnail: images/product/portfolio-1.png
 table:
-  - title: Service
-    description: Development, UX Design
-  - title: Continent
-    description: Americas Latin
-  - title: Fibonacci
-    description: Fractal, Design
-  - title: Kafka
-    description: John Smith
-categories: Saffron, Nuts
-shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor.
+  - title: Program
+    description: Weight Management
+  - title: Duration
+    description: 90 Days
+  - title: Focus
+    description: Metabolism, Fat Loss
+  - title: Support
+    description: Weekly Check-ins
+categories: Weight Management
+shortDescription: Achieve sustainable weight loss with a plan that blends metabolism-boosting nutrition, mindful eating, and personalized progress tracking.
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Our Weight Management Program is designed to help you lose weight without feeling deprived. We combine Ayurvedic principles, nutrient-rich foods, and lifestyle coaching to build habits that last.
 
-Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+This approach is ideal for anyone looking to burn fat, increase energy, and improve overall metabolism while still enjoying real, satisfying meals.

@@ -29,6 +29,49 @@
     }
   }
 
+  .navbar-social {
+    .social-list {
+      gap: 0.5rem;
+      li {
+        list-style: none;
+      }
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      color: $dark;
+      transition: all 0.2s ease;
+    }
+
+    .social-link:hover {
+      color: $white;
+      background: $primary;
+      border-color: $primary;
+    }
+  }
+
+  @include mobile {
+    .navbar-social {
+      width: 100%;
+      margin-bottom: 1rem;
+
+      .social-list {
+        justify-content: center;
+      }
+    }
+
+    .social-link {
+      width: 42px;
+      height: 42px;
+    }
+  }
+
   @include desktop {
     .navbar-toggler {
       outline: 0;

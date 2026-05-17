@@ -1,4 +1,4 @@
 ---
-title: Contact Me
+title: Contact Fitness Vibe
 breadcrumb: Contact
 ---

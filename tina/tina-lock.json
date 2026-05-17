@@ -1,6 +1,6 @@
 {
   "schema": {
-    "version": { "fullVersion": "1.4.19", "major": "1", "minor": "4", "patch": "19" },
+    "version": { "fullVersion": "2.0.2", "major": "2", "minor": "0", "patch": "2" },
     "meta": { "flags": ["experimentalData"] },
     "collections": [
       {
@@ -17,14 +17,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["hero", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "title",
             "namespace": ["hero", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -32,36 +34,48 @@
             "label": "content",
             "ui": { "component": "textarea" },
             "namespace": ["hero", "content"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "buttonName",
             "label": "buttonName",
             "namespace": ["hero", "buttonName"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "buttonURL",
             "label": "buttonURL",
             "namespace": ["hero", "buttonURL"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
-          { "type": "image", "name": "image", "label": "image", "namespace": ["hero", "image"], "searchable": false },
+          {
+            "type": "image",
+            "name": "image",
+            "label": "image",
+            "namespace": ["hero", "image"],
+            "searchable": false,
+            "uid": false
+          },
           {
             "type": "image",
             "name": "videoThumb",
             "label": "videoThumb",
             "namespace": ["hero", "videoThumb"],
-            "searchable": false
+            "searchable": false,
+            "uid": false
           },
           {
             "type": "string",
             "name": "videoURL",
             "label": "videoURL",
             "namespace": ["hero", "videoURL"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["hero"]
@@ -80,14 +94,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["about", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "top-title",
             "namespace": ["about", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -95,7 +111,8 @@
             "label": "title",
             "ui": { "component": "textarea" },
             "namespace": ["about", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -103,37 +120,49 @@
             "label": "content",
             "ui": { "component": "textarea" },
             "namespace": ["about", "content"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "button1Name",
             "label": "button1Name",
             "namespace": ["about", "button1Name"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "button2Name",
             "label": "button2Name",
             "namespace": ["about", "button2Name"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "button1Target",
             "label": "button1Target",
             "namespace": ["about", "button1Target"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "button2Target",
             "label": "button2Target",
             "namespace": ["about", "button2Target"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
-          { "type": "image", "name": "image", "label": "image", "namespace": ["about", "image"], "searchable": false }
+          {
+            "type": "image",
+            "name": "image",
+            "label": "image",
+            "namespace": ["about", "image"],
+            "searchable": false,
+            "uid": false
+          }
         ],
         "namespace": ["about"]
       },
@@ -151,14 +180,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["services", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "topTitle",
             "namespace": ["services", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -166,7 +197,8 @@
             "label": "title",
             "ui": { "component": "textarea" },
             "namespace": ["services", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -180,18 +212,21 @@
                 "label": "Content",
                 "ui": { "component": "textarea" },
                 "namespace": ["services", "service", "content"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "image",
                 "name": "image",
                 "label": "Icon",
                 "namespace": ["services", "service", "image"],
-                "searchable": false
+                "searchable": false,
+                "uid": false
               }
             ],
             "namespace": ["services", "service"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["services"]
@@ -210,14 +245,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["resume", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "top-title",
             "namespace": ["resume", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -225,35 +262,40 @@
             "label": "title",
             "ui": { "component": "textarea" },
             "namespace": ["resume", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "tab1Name",
             "label": "tab1Name",
             "namespace": ["resume", "tab1Name"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "tab2Name",
             "label": "tab2Name",
             "namespace": ["resume", "tab2Name"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "tab1Target",
             "label": "tab1Target",
             "namespace": ["resume", "tab1Target"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "tab2Target",
             "label": "tab2Target",
             "namespace": ["resume", "tab2Target"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -267,25 +309,29 @@
                 "label": "Content",
                 "ui": { "component": "textarea" },
                 "namespace": ["resume", "education", "content"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "image",
                 "name": "image",
                 "label": "Image",
                 "namespace": ["resume", "education", "image"],
-                "searchable": false
+                "searchable": false,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "url",
                 "label": "URL",
                 "namespace": ["resume", "education", "url"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["resume", "education"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -299,25 +345,29 @@
                 "label": "Content",
                 "ui": { "component": "textarea" },
                 "namespace": ["resume", "experience", "content"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "image",
                 "name": "image",
                 "label": "Image",
                 "namespace": ["resume", "experience", "image"],
-                "searchable": false
+                "searchable": false,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "url",
                 "label": "URL",
                 "namespace": ["resume", "experience", "url"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["resume", "experience"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["resume"]
@@ -336,14 +386,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["testimonials", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "top title",
             "namespace": ["testimonials", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -351,7 +403,8 @@
             "label": "title",
             "ui": { "component": "textarea" },
             "namespace": ["testimonials", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -364,32 +417,37 @@
                 "name": "name",
                 "label": "Name",
                 "namespace": ["testimonials", "testimonial", "name"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "comment",
                 "label": "Comment",
                 "namespace": ["testimonials", "testimonial", "comment"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "time",
                 "label": "time",
                 "namespace": ["testimonials", "testimonial", "time"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "number",
                 "name": "star",
                 "label": "Star",
                 "namespace": ["testimonials", "testimonial", "star"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["testimonials", "testimonial"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["testimonials"]
@@ -408,14 +466,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["product_section", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "title",
             "namespace": ["product_section", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -423,7 +483,8 @@
             "label": "Title",
             "ui": { "component": "textarea" },
             "namespace": ["product_section", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["product_section"]
@@ -442,14 +503,16 @@
             "name": "enable",
             "label": "enable",
             "namespace": ["blog_section", "enable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "topTitle",
             "label": "title",
             "namespace": ["blog_section", "topTitle"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -457,21 +520,24 @@
             "label": "Title",
             "ui": { "component": "textarea" },
             "namespace": ["blog_section", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "buttonName",
             "label": "Button name",
             "namespace": ["blog_section", "buttonName"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "buttonTarget",
             "label": "Button target",
             "namespace": ["blog_section", "buttonTarget"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["blog_section"]
@@ -489,15 +555,24 @@
             "name": "title",
             "label": "Title",
             "namespace": ["product", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
-          { "type": "datetime", "name": "date", "label": "date", "namespace": ["product", "date"], "searchable": true },
+          {
+            "type": "datetime",
+            "name": "date",
+            "label": "date",
+            "namespace": ["product", "date"],
+            "searchable": true,
+            "uid": false
+          },
           {
             "type": "image",
             "name": "thumbnail",
             "label": "Thumbnail",
             "namespace": ["product", "thumbnail"],
-            "searchable": false
+            "searchable": false,
+            "uid": false
           },
           {
             "type": "object",
@@ -510,25 +585,29 @@
                 "name": "title",
                 "label": "Title",
                 "namespace": ["product", "table", "title"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "description",
                 "label": "Description",
                 "namespace": ["product", "table", "description"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["product", "table"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "categories",
             "label": "Categories",
             "namespace": ["product", "categories"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -536,7 +615,8 @@
             "label": "shortDescription",
             "ui": { "component": "textarea" },
             "namespace": ["product", "shortDescription"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["product"]
@@ -557,7 +637,8 @@
             "isBody": true,
             "namespace": ["contact", "body"],
             "searchable": true,
-            "parser": { "type": "markdown" }
+            "parser": { "type": "markdown" },
+            "uid": false
           }
         ],
         "namespace": ["contact"]
@@ -570,29 +651,53 @@
         "frontmatterFormat": "yaml",
         "match": { "include": "**/*" },
         "fields": [
-          { "type": "string", "name": "title", "label": "Title", "namespace": ["blog", "title"], "searchable": true },
-          { "type": "datetime", "name": "date", "label": "date", "namespace": ["blog", "date"], "searchable": true },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title",
+            "namespace": ["blog", "title"],
+            "searchable": true,
+            "uid": false
+          },
+          {
+            "type": "datetime",
+            "name": "date",
+            "label": "date",
+            "namespace": ["blog", "date"],
+            "searchable": true,
+            "uid": false
+          },
           {
             "type": "image",
             "name": "featureImage",
             "label": "featureImage",
             "namespace": ["blog", "featureImage"],
-            "searchable": false
+            "searchable": false,
+            "uid": false
           },
           {
             "type": "image",
             "name": "postImage",
             "label": "postImage",
             "namespace": ["blog", "postImage"],
-            "searchable": false
+            "searchable": false,
+            "uid": false
           },
-          { "type": "string", "name": "tags", "label": "Tags", "namespace": ["blog", "tags"], "searchable": true },
+          {
+            "type": "string",
+            "name": "tags",
+            "label": "Tags",
+            "namespace": ["blog", "tags"],
+            "searchable": true,
+            "uid": false
+          },
           {
             "type": "string",
             "name": "categories",
             "label": "Categories",
             "namespace": ["blog", "categories"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["blog"]
@@ -611,35 +716,40 @@
             "name": "baseURL",
             "label": "baseURL",
             "namespace": ["config_file", "baseURL"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "languageCode",
             "label": "languageCode",
             "namespace": ["config_file", "languageCode"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "title",
             "label": "Title",
             "namespace": ["config_file", "title"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "theme",
             "label": "theme",
             "namespace": ["config_file", "theme"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "number",
             "name": "paginate",
             "label": "paginate",
             "namespace": ["config_file", "paginate"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["config_file"]
@@ -669,29 +779,34 @@
                     "name": "name",
                     "label": "name",
                     "namespace": ["menus_file", "main", "main", "name"],
-                    "searchable": true
+                    "searchable": true,
+                    "uid": false
                   },
                   {
                     "type": "string",
                     "name": "url",
                     "label": "url",
                     "namespace": ["menus_file", "main", "main", "url"],
-                    "searchable": true
+                    "searchable": true,
+                    "uid": false
                   },
                   {
                     "type": "number",
                     "name": "weight",
                     "label": "weight",
                     "namespace": ["menus_file", "main", "main", "weight"],
-                    "searchable": true
+                    "searchable": true,
+                    "uid": false
                   }
                 ],
                 "namespace": ["menus_file", "main", "main"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["menus_file", "main"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -704,25 +819,29 @@
                 "name": "name",
                 "label": "name",
                 "namespace": ["menus_file", "sitemap", "name"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "url",
                 "label": "url",
                 "namespace": ["menus_file", "sitemap", "url"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "number",
                 "name": "weight",
                 "label": "weight",
                 "namespace": ["menus_file", "sitemap", "weight"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["menus_file", "sitemap"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["menus_file"]
@@ -741,28 +860,32 @@
             "name": "titleSeparator",
             "label": "Title separator",
             "namespace": ["parameters_file", "titleSeparator"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "description",
             "label": "Description",
             "namespace": ["parameters_file", "description"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "boolean",
             "name": "alert",
             "label": "Alert Enabled",
             "namespace": ["parameters_file", "alert"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "boolean",
             "name": "alertDismissable",
             "label": "Alert dismissable",
             "namespace": ["parameters_file", "alertDismissable"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
@@ -770,56 +893,64 @@
             "label": "Alert text",
             "ui": { "component": "textarea" },
             "namespace": ["parameters_file", "alertText"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "blogPageURL",
             "label": "blogPageURL",
             "namespace": ["parameters_file", "blogPageURL"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "image",
             "name": "logo",
             "label": "logo",
             "namespace": ["parameters_file", "logo"],
-            "searchable": false
+            "searchable": false,
+            "uid": false
           },
           {
             "type": "image",
             "name": "footerLogo",
             "label": "footerLogo",
             "namespace": ["parameters_file", "footerLogo"],
-            "searchable": false
+            "searchable": false,
+            "uid": false
           },
           {
             "type": "string",
             "name": "contactLink",
             "label": "contactLink",
             "namespace": ["parameters_file", "contactLink"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "copyright",
             "label": "copyright",
             "namespace": ["parameters_file", "copyright"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "googleAnalytics",
             "label": "googleAnalytics",
             "namespace": ["parameters_file", "googleAnalytics"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "string",
             "name": "fabformURL",
             "label": "fabformURL",
             "namespace": ["parameters_file", "fabformURL"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -831,32 +962,37 @@
                 "name": "phone",
                 "label": "phone",
                 "namespace": ["parameters_file", "address", "phone"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "email",
                 "label": "email",
                 "namespace": ["parameters_file", "address", "email"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "address",
                 "label": "address",
                 "namespace": ["parameters_file", "address", "address"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "openingHours",
                 "label": "openingHours",
                 "namespace": ["parameters_file", "address", "openingHours"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["parameters_file", "address"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -868,32 +1004,37 @@
                 "name": "APIkey",
                 "label": "APIkey",
                 "namespace": ["parameters_file", "map", "APIkey"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "latitude",
                 "label": "latitude",
                 "namespace": ["parameters_file", "map", "latitude"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "longitude",
                 "label": "longitude",
                 "namespace": ["parameters_file", "map", "longitude"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "image",
                 "name": "pinImage",
                 "label": "pinImage",
                 "namespace": ["parameters_file", "map", "pinImage"],
-                "searchable": false
+                "searchable": false,
+                "uid": false
               }
             ],
             "namespace": ["parameters_file", "map"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           },
           {
             "type": "object",
@@ -905,31 +1046,35 @@
                 "name": "icon",
                 "label": "Icon",
                 "namespace": ["parameters_file", "social", "icon"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "string",
                 "name": "url",
                 "label": "URL",
                 "namespace": ["parameters_file", "social", "url"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               },
               {
                 "type": "number",
                 "name": "weight",
                 "label": "Weight",
                 "namespace": ["parameters_file", "social", "weight"],
-                "searchable": true
+                "searchable": true,
+                "uid": false
               }
             ],
             "namespace": ["parameters_file", "social"],
-            "searchable": true
+            "searchable": true,
+            "uid": false
           }
         ],
         "namespace": ["parameters_file"]
       }
     ],
-    "config": { "client": {}, "media": { "tina": { "publicFolder": "static", "mediaRoot": "" } } }
+    "config": { "client": {}, "media": { "tina": { "publicFolder": "static", "mediaRoot": "images" } } }
   },
   "lookup": {
     "DocumentConnection": {
@@ -1143,6 +1288,12 @@
               "kind": "NonNullType",
               "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
             }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "hasReferences" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Boolean" } }
           },
           {
             "kind": "FieldDefinition",
@@ -5410,6 +5561,29 @@
                 "type": {
                   "kind": "NonNullType",
                   "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "DocumentMutation" } }
+                }
+              }
+            ],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "DocumentNode" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "createFolder" },
+            "arguments": [
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "collection" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "relativePath" },
+                "type": {
+                  "kind": "NonNullType",
+                  "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
                 }
               }
             ],

@@ -29,7 +29,20 @@
           </li>
         {{ end }}
       </ul>
-      <div class="navbar-nav">
+      <div class="navbar-nav align-items-center">
+        {{ with .Site.Params.social }}
+          <div class="navbar-social mr-3">
+            <ul class="social-list d-flex m-0 p-0">
+              {{ range . }}
+                <li class="nav-item">
+                  <a class="nav-link social-link" target="_blank" rel="noreferrer noopener" href="{{ .url }}">
+                    <i class="fa {{ .icon }}"></i>
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
         <a href="{{ "contact" | absURL }}" class="btn btn-primary btn-zoom hire_button">Contact Us</a>
       </div>
     </div>

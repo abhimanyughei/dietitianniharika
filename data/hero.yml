@@ -1,13 +1,11 @@
 enable: true
-topTitle: We Are Helmani!
+topTitle: UNLOCK YOUR CUSTOM PLAN TODAY..!
 content: >
-  # Healthy Food, Healthy Life
+  # Tailored Diet Plans for Your Body, Mind & Soul
 
-  The premium quality and tasty dried fruits and nuts from the best farms of
-  Iran toi bring you a healthier and tastier life!
-buttonName: Contact Us
+  Ancient wisdom and scientific precision combined to help you heal from within,
+  restore balance, and feel truly energized.
+buttonName: Enroll Today
 buttonURL: contact
 image: images/hero/nuts.jpg
-videoThumb: images/hero/pistachios.jpg
-videoURL: "https://youtu.be/1-NOOoqlvfA"
 _template: hero_template
