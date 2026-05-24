@@ -44,12 +44,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Build with Hugo
+      - name: Build with TinaCMS and Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_BASEURL: "${{ steps.pages.outputs.base_url }}/"
         run: |
-          node_modules/.bin/hugo/hugo --gc --minify --baseURL="${{ steps.pages.outputs.base_url }}/"
+          pnpm run tina:build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
