@@ -219,6 +219,16 @@ export function menus_templateFields() {
               label: "url",
             },
             {
+              type: "string",
+              name: "identifier",
+              label: "identifier",
+            },
+            {
+              type: "string",
+              name: "parent",
+              label: "parent",
+            },
+            {
               type: "number",
               name: "weight",
               label: "weight",

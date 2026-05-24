@@ -47,7 +47,16 @@ main:
     weight: 9
   - name: Testimonials
     url: "#testimonial"
+    identifier: testimonials
     weight: 6
+  - name: Success Stories
+    url: "testimonials/success-stories"
+    parent: testimonials
+    weight: 1
+  - name: Client Feedbacks
+    url: "testimonials/client-feedbacks"
+    parent: testimonials
+    weight: 2
   - name: Blog
     url: "#blog"
     weight: 7

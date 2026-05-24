@@ -1,0 +1,49 @@
+{{ define "main" }}
+  <section class="section testimonial testimonial-page">
+    <div class="testimonial__background_shape">
+      <svg viewBox="0 0 1920 79">
+        <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="testimonial__header">
+            <span class="top-title">{{ .Params.description }}</span>
+            <h1>{{ .Title }}</h1>
+          </div>
+          {{ with .Content }}
+            <div class="testimonial-page__intro">{{ . }}</div>
+          {{ end }}
+        </div>
+      </div>
+      {{ with .Params.feedbacks }}
+        <div class="row">
+          {{ range . }}
+            <div class="col-lg-4 col-md-6">
+              <div class="testimonial__slider_item">
+                {{ if .star }}
+                  <ul class="testimonial__slider_item-rating">
+                    {{ $rating := .star | int }}
+                    {{ range $i, $sequence := (seq 5) }}
+                      {{ if lt $i $rating }}
+                        <li><i class="fa fa-star"></i></li>
+                      {{ else }}
+                        <li><i class="fa fa-star inactive"></i></li>
+                      {{ end }}
+                    {{ end }}
+                  </ul>
+                {{ end }}
+                <p class="testimonial__slider_item-content">{{ .comment | markdownify }}</p>
+                <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .time }}</p>
+                {{ if .source }}
+                  <p class="testimonial__slider_item-source">Source: {{ .source }}</p>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

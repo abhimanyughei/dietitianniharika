@@ -198,6 +198,76 @@ export default defineConfig({
         fields: blog_templateFields(),
       },
       {
+        format: "md",
+        label: "Testimonials Pages",
+        name: "testimonials_pages",
+        path: "content/testimonials",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "date",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "object",
+            name: "feedbacks",
+            label: "Feedback Items",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "name",
+                label: "Client name",
+              },
+              {
+                type: "string",
+                name: "comment",
+                label: "Feedback comment",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "string",
+                name: "time",
+                label: "Feedback time",
+              },
+              {
+                type: "number",
+                name: "star",
+                label: "Rating",
+              },
+              {
+                type: "string",
+                name: "source",
+                label: "Source (e.g. Google, Video)",
+              },
+            ],
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "Page content",
+            isBody: true,
+          },
+        ],
+      },
+      {
         format: "yaml",
         label: "Config File",
         name: "config_file",

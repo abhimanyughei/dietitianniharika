@@ -703,6 +703,104 @@
         "namespace": ["blog"]
       },
       {
+        "format": "md",
+        "label": "Testimonials Pages",
+        "name": "testimonials_pages",
+        "path": "content/testimonials",
+        "frontmatterFormat": "yaml",
+        "match": { "include": "**/*" },
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title",
+            "namespace": ["testimonials_pages", "title"],
+            "searchable": true,
+            "uid": false
+          },
+          {
+            "type": "datetime",
+            "name": "date",
+            "label": "date",
+            "namespace": ["testimonials_pages", "date"],
+            "searchable": true,
+            "uid": false
+          },
+          {
+            "type": "string",
+            "name": "description",
+            "label": "Description",
+            "namespace": ["testimonials_pages", "description"],
+            "searchable": true,
+            "uid": false
+          },
+          {
+            "type": "object",
+            "name": "feedbacks",
+            "label": "Feedback Items",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "name",
+                "label": "Client name",
+                "namespace": ["testimonials_pages", "feedbacks", "name"],
+                "searchable": true,
+                "uid": false
+              },
+              {
+                "type": "string",
+                "name": "comment",
+                "label": "Feedback comment",
+                "ui": { "component": "textarea" },
+                "namespace": ["testimonials_pages", "feedbacks", "comment"],
+                "searchable": true,
+                "uid": false
+              },
+              {
+                "type": "string",
+                "name": "time",
+                "label": "Feedback time",
+                "namespace": ["testimonials_pages", "feedbacks", "time"],
+                "searchable": true,
+                "uid": false
+              },
+              {
+                "type": "number",
+                "name": "star",
+                "label": "Rating",
+                "namespace": ["testimonials_pages", "feedbacks", "star"],
+                "searchable": true,
+                "uid": false
+              },
+              {
+                "type": "string",
+                "name": "source",
+                "label": "Source (e.g. Google, Video)",
+                "namespace": ["testimonials_pages", "feedbacks", "source"],
+                "searchable": true,
+                "uid": false
+              }
+            ],
+            "namespace": ["testimonials_pages", "feedbacks"],
+            "searchable": true,
+            "uid": false
+          },
+          {
+            "type": "rich-text",
+            "name": "body",
+            "label": "Body of Document",
+            "description": "Page content",
+            "isBody": true,
+            "namespace": ["testimonials_pages", "body"],
+            "searchable": true,
+            "parser": { "type": "markdown" },
+            "uid": false
+          }
+        ],
+        "namespace": ["testimonials_pages"]
+      },
+      {
         "format": "yaml",
         "label": "Config File",
         "name": "config_file",
@@ -787,6 +885,22 @@
                     "name": "url",
                     "label": "url",
                     "namespace": ["menus_file", "main", "main", "url"],
+                    "searchable": true,
+                    "uid": false
+                  },
+                  {
+                    "type": "string",
+                    "name": "identifier",
+                    "label": "identifier",
+                    "namespace": ["menus_file", "main", "main", "identifier"],
+                    "searchable": true,
+                    "uid": false
+                  },
+                  {
+                    "type": "string",
+                    "name": "parent",
+                    "label": "parent",
+                    "namespace": ["menus_file", "main", "main", "parent"],
                     "searchable": true,
                     "uid": false
                   },
@@ -1091,6 +1205,7 @@
         "product",
         "contact",
         "blog",
+        "testimonials_pages",
         "config_file",
         "menus_file",
         "parameters_file"
@@ -1207,6 +1322,18 @@
       "updateBlog": "update"
     },
     "BlogConnection": { "type": "BlogConnection", "resolveType": "collectionDocumentList", "collection": "blog" },
+    "Testimonials_pages": {
+      "type": "Testimonials_pages",
+      "resolveType": "collectionDocument",
+      "collection": "testimonials_pages",
+      "createTestimonials_pages": "create",
+      "updateTestimonials_pages": "update"
+    },
+    "Testimonials_pagesConnection": {
+      "type": "Testimonials_pagesConnection",
+      "resolveType": "collectionDocumentList",
+      "collection": "testimonials_pages"
+    },
     "Config_file": {
       "type": "Config_file",
       "resolveType": "collectionDocument",
@@ -2149,6 +2276,61 @@
           },
           {
             "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "testimonials_pages" },
+            "arguments": [
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "relativePath" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+              }
+            ],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pages" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "testimonials_pagesConnection" },
+            "arguments": [
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "before" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "after" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "first" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Float" } }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "last" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Float" } }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "sort" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "filter" },
+                "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesFilter" } }
+              }
+            ],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesConnection" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
             "name": { "kind": "Name", "value": "config_file" },
             "arguments": [
               {
@@ -2370,6 +2552,11 @@
           },
           {
             "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "testimonials_pages" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "config_file" },
             "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Config_fileFilter" } }
           },
@@ -2568,6 +2755,7 @@
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Product" } },
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Contact" } },
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Blog" } },
+          { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pages" } },
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Config_file" } },
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Menus_file" } },
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Parameters_file" } },
@@ -4613,6 +4801,235 @@
       },
       {
         "kind": "ObjectTypeDefinition",
+        "interfaces": [],
+        "directives": [],
+        "name": { "kind": "Name", "value": "Testimonials_pagesFeedbacks" },
+        "fields": [
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "name" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "comment" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "time" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "star" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Float" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "source" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          }
+        ]
+      },
+      {
+        "kind": "ObjectTypeDefinition",
+        "interfaces": [
+          { "kind": "NamedType", "name": { "kind": "Name", "value": "Node" } },
+          { "kind": "NamedType", "name": { "kind": "Name", "value": "Document" } }
+        ],
+        "directives": [],
+        "name": { "kind": "Name", "value": "Testimonials_pages" },
+        "fields": [
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "title" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "date" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "description" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "feedbacks" },
+            "arguments": [],
+            "type": {
+              "kind": "ListType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesFeedbacks" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "body" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "JSON" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "id" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "ID" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "_sys" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "SystemInfo" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "_values" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "JSON" } }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "InputObjectTypeDefinition",
+        "name": { "kind": "Name", "value": "Testimonials_pagesFeedbacksFilter" },
+        "fields": [
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "name" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "comment" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "time" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "star" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "NumberFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "source" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          }
+        ]
+      },
+      {
+        "kind": "InputObjectTypeDefinition",
+        "name": { "kind": "Name", "value": "Testimonials_pagesFilter" },
+        "fields": [
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "title" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "date" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "DatetimeFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "description" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "feedbacks" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesFeedbacksFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "body" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "RichTextFilter" } }
+          }
+        ]
+      },
+      {
+        "kind": "ObjectTypeDefinition",
+        "interfaces": [],
+        "directives": [],
+        "name": { "kind": "Name", "value": "Testimonials_pagesConnectionEdges" },
+        "fields": [
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "cursor" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "node" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pages" } }
+          }
+        ]
+      },
+      {
+        "kind": "ObjectTypeDefinition",
+        "interfaces": [{ "kind": "NamedType", "name": { "kind": "Name", "value": "Connection" } }],
+        "directives": [],
+        "name": { "kind": "Name", "value": "Testimonials_pagesConnection" },
+        "fields": [
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "pageInfo" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "PageInfo" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "totalCount" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Float" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "edges" },
+            "arguments": [],
+            "type": {
+              "kind": "ListType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesConnectionEdges" } }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "ObjectTypeDefinition",
         "interfaces": [
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Node" } },
           { "kind": "NamedType", "name": { "kind": "Name", "value": "Document" } }
@@ -4788,6 +5205,18 @@
           },
           {
             "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "identifier" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "parent" },
+            "arguments": [],
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "FieldDefinition",
             "name": { "kind": "Name", "value": "weight" },
             "arguments": [],
             "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Float" } }
@@ -4902,6 +5331,16 @@
           {
             "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "url" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "identifier" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "parent" },
             "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "StringFilter" } }
           },
           {
@@ -6114,6 +6553,58 @@
           },
           {
             "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "updateTestimonials_pages" },
+            "arguments": [
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "relativePath" },
+                "type": {
+                  "kind": "NonNullType",
+                  "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+                }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "params" },
+                "type": {
+                  "kind": "NonNullType",
+                  "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesMutation" } }
+                }
+              }
+            ],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pages" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "createTestimonials_pages" },
+            "arguments": [
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "relativePath" },
+                "type": {
+                  "kind": "NonNullType",
+                  "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+                }
+              },
+              {
+                "kind": "InputValueDefinition",
+                "name": { "kind": "Name", "value": "params" },
+                "type": {
+                  "kind": "NonNullType",
+                  "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesMutation" } }
+                }
+              }
+            ],
+            "type": {
+              "kind": "NonNullType",
+              "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pages" } }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
             "name": { "kind": "Name", "value": "updateConfig_file" },
             "arguments": [
               {
@@ -6326,6 +6817,11 @@
           },
           {
             "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "testimonials_pages" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesMutation" } }
+          },
+          {
+            "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "config_file" },
             "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Config_fileMutation" } }
           },
@@ -6399,6 +6895,11 @@
             "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "blog" },
             "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "BlogMutation" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "testimonials_pages" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Testimonials_pagesMutation" } }
           },
           {
             "kind": "InputValueDefinition",
@@ -6869,6 +7370,74 @@
       },
       {
         "kind": "InputObjectTypeDefinition",
+        "name": { "kind": "Name", "value": "Testimonials_pagesFeedbacksMutation" },
+        "fields": [
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "name" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "comment" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "time" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "star" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "Float" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "source" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          }
+        ]
+      },
+      {
+        "kind": "InputObjectTypeDefinition",
+        "name": { "kind": "Name", "value": "Testimonials_pagesMutation" },
+        "fields": [
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "title" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "date" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "description" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "feedbacks" },
+            "type": {
+              "kind": "ListType",
+              "type": {
+                "kind": "NamedType",
+                "name": { "kind": "Name", "value": "Testimonials_pagesFeedbacksMutation" }
+              }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "body" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "JSON" } }
+          }
+        ]
+      },
+      {
+        "kind": "InputObjectTypeDefinition",
         "name": { "kind": "Name", "value": "Config_fileMutation" },
         "fields": [
           {
@@ -6910,6 +7479,16 @@
           {
             "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "url" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "identifier" },
+            "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "parent" },
             "type": { "kind": "NamedType", "name": { "kind": "Name", "value": "String" } }
           },
           {
