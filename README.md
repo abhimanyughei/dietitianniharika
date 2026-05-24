@@ -106,13 +106,13 @@ pnpm start
 
 ### As a Theme
 
-#### 1. Create a new site
+#### 1. Create a new site (As a Theme)
 
 ```bash
 git submodule add https://github.com/AminZibayi/Corporio.git themes/corporio
 ```
 
-#### 2. Install dependencies
+#### 2. Install dependencies (As a Theme)
 
 ```bash
 cd /themes/corporio && pnpm install
@@ -187,7 +187,7 @@ Contribution to the source code and documentation are highly welcome, there are 
 
 ## Communities
 
-_TODO_
+# To:
 
 ## License
 
