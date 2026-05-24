@@ -71,9 +71,9 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="singleBlog__feature">
-            {{ with .Params.postImage }}
-              <img src="{{ . | absURL }}" alt="feature-image" />
-            {{ end }}
+            {{ $asset := resources.Get .Params.postImage }}
+            {{ $img := $asset.Resize "900x webp" }}
+            <img src="{{ $img.RelPermalink }}" alt="feature-image" />
           </div>
         </div>
       </div>

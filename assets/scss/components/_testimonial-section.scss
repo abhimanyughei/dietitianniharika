@@ -6,6 +6,11 @@
   @include desktop {
     padding: 100px 0;
   }
+
+  &.testimonial-page {
+    margin-top: 80px;
+  }
+
   &__background_shape {
     position: absolute;
     width: 100%;

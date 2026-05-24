@@ -15,9 +15,9 @@
             <div class="product-item-grid">
               {{ range first 4 (where $.Site.RegularPages "Type" "product") }}
                 <div class="product-item">
-                  {{ with .Params.thumbnail }}
-                    <img src="{{ . | absURL }}" class="product-item-thumb" alt="product-thumb" />
-                  {{ end }}
+                  {{ $asset := resources.Get .Params.thumbnail }}
+                  {{ $img := $asset.Resize "500x webp" }}
+                  <img src="{{ $img.RelPermalink }}" class="product-item-thumb" alt="product-thumb" />
                   <div class="product-item-content">
                     <span>{{ .Params.categories }}</span>
                     <h3 class="mb-0">

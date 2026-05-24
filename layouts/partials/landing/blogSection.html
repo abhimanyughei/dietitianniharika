@@ -26,9 +26,9 @@
             <div class="col-lg-4">
               <div class="blog-preview__item">
                 <div class="blog-preview__item-thumb">
-                  {{ with .Params.featureImage }}
-                    <img src="{{ . | absURL }}" alt="post-image" />
-                  {{ end }}
+                  {{ $asset := resources.Get .Params.featureImage }}
+                  {{ $img := $asset.Fill "320x370 webp" }}
+                  <img src="{{ $img.RelPermalink }}" alt="post-image" />
                 </div>
                 <div class="blog-preview__item-content bg-white">
                   <span class="small">{{ .PublishDate.Format "January 2, 2006" }}</span>
