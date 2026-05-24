@@ -1074,7 +1074,7 @@
         "namespace": ["parameters_file"]
       }
     ],
-    "config": { "client": {}, "media": { "tina": { "publicFolder": "static", "mediaRoot": "images" } } }
+    "config": { "media": { "tina": { "publicFolder": "static", "mediaRoot": "images" } } }
   },
   "lookup": {
     "DocumentConnection": {
