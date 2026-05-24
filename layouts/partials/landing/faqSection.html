@@ -1,0 +1,31 @@
+{{ with .Site.Data.faqSection }}
+  {{ if .enable }}
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center mb-5">
+            <div class="section__header">
+              <span class="top-title">{{ .topTitle }}</span>
+              {{ .title | markdownify }}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          {{ range .groups }}
+            <div class="col-lg-6 mb-4">
+              <div class="faq-group">
+                <h4 class="mb-4">{{ .heading }}</h4>
+                {{ range .items }}
+                  <div class="faq-item mb-4">
+                    <h5 class="faq-question">{{ .question }}</h5>
+                    <p class="faq-answer">{{ .answer }}</p>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

@@ -36,7 +36,13 @@
       </div>
     </div>
   </header>
-
+  <section class="section contact__info">
+    <div class="container">
+      <div class="row">
+        {{ partial "discovery_form.html" . }}
+      </div>
+    </div>
+  </section>
   {{ $address := .Site.Params.address }}
   <section class="section contact__info">
     <div class="container">
@@ -116,6 +122,7 @@
           <div class="contact-form-title">
             <h3>Contact Form</h3>
           </div>
+
           <div class="contact-form-input">
             <form id="contact-form" action="{{ .Site.Params.fabformURL }}" method="POST">
               <div class="form-row">

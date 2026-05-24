@@ -1,0 +1,38 @@
+<div class="max-w-xl mx-auto my-8 p-8 bg-white border border-stone-100 rounded-2xl shadow-sm">
+  <div class="text-center mb-6">
+    <h3 class="text-2xl font-semibold text-stone-800 tracking-tight">Book Your Free Discovery Call</h3>
+    <p class="text-stone-500 text-sm mt-1">Take the first step toward your personalized wellness goals.</p>
+  </div>
+
+  <!-- TALLY EMBED START -->
+  <!-- Replace 'YOUR_TALLY_FORM_ID' with the actual ID from your Tally share link -->
+  <iframe
+    data-tally-src="https://tally.so/embed/YOUR_TALLY_FORM_ID?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+    loading="lazy"
+    width="100%"
+    height="350"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    title="Book Your Free Discovery Call"
+    class="w-full">
+  </iframe>
+
+  <script>
+    var d = document,
+      w = window;
+    function l() {
+      var s = d.createElement("script");
+      s.type = "text/javascript";
+      s.src = "https://tally.so/widgets/embed.js";
+      s.onload = w.Tally.loadEmbeds;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    }
+    if (w.Tally) {
+      w.Tally.loadEmbeds();
+    } else {
+      d.addEventListener("DOMContentLoaded", l);
+    }
+  </script>
+  <!-- TALLY EMBED END -->
+</div>

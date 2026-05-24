@@ -1,14 +1,8 @@
 main:
-  - name: Home
-    url: ""
-    weight: 1
-  - name: Categories
+  - name: Services
     url: "#service"
     weight: 2
-  - name: Certificates
-    url: "#resume"
-    weight: 3
-  - name: About
+  - name: About Us
     url: "#about"
     weight: 4
   - name: Programs

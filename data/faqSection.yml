@@ -1,0 +1,31 @@
+enable: true
+topTitle: Frequently Asked Questions
+title: >
+  ## About Our Approach
+
+groups:
+  - heading: About Our Approach
+    items:
+      - question: "What makes Fitness Vibe different from other diet clinics?"
+        answer: "Fitness Vibe blends ancient Ayurvedic wisdom with modern clinical nutrition. We go beyond calorie counting to offer personalized, root-cause healing plans tailored to your Dosha, lifestyle, and long-term goals."
+      - question: "How do you personalize wellness plans?"
+        answer: "Every plan starts with a detailed health and lifestyle assessment, including your Prakriti (Ayurvedic body type), medical history, symptoms, emotional state, and daily rhythm. Based on this, we create a fully customized program that works for you."
+      - question: "Are your diet plans restrictive or difficult to follow?"
+        answer: "No. We believe in nourishment — not deprivation. Our plans are easy, enjoyable, and sustainable, focusing on whole foods, balanced meals, and cultural compatibility."
+      - question: "Do I need to buy any supplements or products?"
+        answer: "Only if needed — and only after assessing their compatibility with your body. We may recommend Ayurvedic herbs or nutraceuticals, but the focus is always on healing through food and lifestyle first."
+      - question: "I have a medical condition. Can I still join your programs?"
+        answer: "Absolutely. We specialize in conditions like PCOS, thyroid, diabetes, infertility, gut issues, and more. Our team ensures every plan is aligned with your medical needs and physician’s advice."
+  - heading: How It Works for You
+    items:
+      - question: "Do I need to be in Mohali to join your programs?"
+        answer: "Not at all! All our programs, including yoga sessions and consultations, are available online. Whether you're in India or abroad, you can access our services from the comfort of your home."
+      - question: "What kind of yoga do you offer?"
+        answer: "We offer live, interactive yoga sessions personalized to your Dosha, health goals, and flexibility level. From gentle flows and detox routines to fertility-focused yoga, all sessions are led by certified instructors."
+      - question: "Do you offer support between consultations?"
+        answer: "Yes! We offer regular WhatsApp and email check-ins to ensure you're supported, motivated, and guided at every step of your healing journey."
+      - question: "How long before I see results?"
+        answer: "Healing timelines vary by individual. However, most clients begin to experience improvements in energy, digestion, mood, and weight within the first 3–4 weeks, with deeper transformations over 8–12 weeks."
+      - question: "How do I get started?"
+        answer: "Click on the [Book Your Free Consultation] button to schedule your first session. We'll walk you through your needs, goals, and how Fitness Vibe can support your journey to wellness."
+_template: faq_template
