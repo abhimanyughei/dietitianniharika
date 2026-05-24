@@ -49,8 +49,16 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           HUGO_BASEURL: "${{ steps.pages.outputs.base_url }}/"
+          TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: |
-          pnpm run tina:build
+          if [ -n "${TINA_CLIENT_ID}" ] && [ -n "${TINA_TOKEN}" ]; then
+            echo "Running TinaCMS build with client secrets."
+            pnpm run tina:build
+          else
+            echo "TINA_CLIENT_ID/TINA_TOKEN not found; falling back to pnpm build."
+            pnpm run build
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
