@@ -17,6 +17,8 @@ import {
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.GITHUB_REF_NAME || process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "master";
 
+const basePath = process.env.BASE_PATH ? process.env.BASE_PATH.replace(/^\//, "") : "";
+
 export default defineConfig({
   branch,
   clientId: process.env.TINA_CLIENT_ID || null, // Get this from tina.io
@@ -24,6 +26,7 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "static",
+    basePath: basePath,
   },
   // TODO: fix issue with Tina not detecting media files in assets directory
   media: {
