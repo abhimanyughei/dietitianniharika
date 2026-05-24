@@ -664,3 +664,47 @@ export function testimonial_templateFields() {
     },
   ];
 }
+
+export function about_pages_templateFields() {
+  return [
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+    },
+    {
+      type: "datetime",
+      name: "date",
+      label: "Date",
+    },
+    {
+      type: "string",
+      name: "description",
+      label: "Description",
+      ui: {
+        component: "textarea",
+      },
+    },
+    {
+      type: "object",
+      name: "mentions",
+      label: "Media Mentions",
+      list: true,
+      fields: [
+        { type: "string", name: "heading", label: "Heading" },
+        { type: "datetime", name: "datetime", label: "Date/Time" },
+        { type: "string", name: "publisher", label: "Publisher" },
+        { type: "string", name: "link", label: "Link" },
+        { type: "image", name: "image", label: "Image" },
+        { type: "string", name: "youtube", label: "YouTube URL", ui: { component: "YouTubePreview" } },
+      ],
+    },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Body of Document",
+      description: "This is the markdown body",
+      isBody: true,
+    },
+  ];
+}

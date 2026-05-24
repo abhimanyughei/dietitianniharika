@@ -2,8 +2,9 @@ main:
   - name: Services
     url: "#service"
     weight: 2
-  - name: About Us
-    url: "#about"
+  - name: Our Story
+    url: "about"
+    identifier: our-story
     weight: 4
   - name: Programs
     url: "#product"
@@ -57,6 +58,22 @@ main:
     url: "testimonials/client-feedbacks"
     parent: testimonials
     weight: 2
+  - name: Our Story
+    url: "about"
+    identifier: our-story
+    weight: 4
+  - name: Meet Dt. Niharika
+    url: "about/meet-dt-niharika"
+    parent: our-story
+    weight: 1
+  - name: Media & Mentions
+    url: "about/media-mentions"
+    parent: our-story
+    weight: 2
+  - name: About Us
+    url: "about/about-us"
+    parent: our-story
+    weight: 3
   - name: Blog
     url: "#blog"
     weight: 7

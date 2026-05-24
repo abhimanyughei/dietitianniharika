@@ -3,6 +3,7 @@ import {
   about_templateFields,
   blog_section_templateFields,
   blog_templateFields,
+  about_pages_templateFields,
   config_templateFields,
   hero_templateFields,
   menus_templateFields,
@@ -266,6 +267,17 @@ export default defineConfig({
             isBody: true,
           },
         ],
+      },
+      {
+        format: "md",
+        label: "About Pages",
+        name: "about_pages",
+        path: "content/about",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        fields: about_pages_templateFields(),
       },
       {
         format: "yaml",
