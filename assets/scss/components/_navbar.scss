@@ -56,7 +56,35 @@
     }
   }
 
+  .dropdown-menu {
+    min-width: 12rem;
+  }
+
   @include mobile {
+    .dropdown-menu {
+      position: static;
+      float: none;
+      width: 100%;
+      margin-top: 0.5rem;
+      border-radius: 0.5rem;
+    }
+
+    .navbar-social {
+      width: 100%;
+      margin-bottom: 1rem;
+
+      .social-list {
+        justify-content: center;
+      }
+    }
+
+    .social-link {
+      width: 42px;
+      height: 42px;
+    }
+  }
+
+  @include desktop {
     .navbar-social {
       width: 100%;
       margin-bottom: 1rem;

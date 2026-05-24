@@ -11,9 +11,46 @@ main:
   - name: About
     url: "#about"
     weight: 4
-  - name: Products
+  - name: Programs
     url: "#product"
+    identifier: programs
     weight: 5
+  - name: Weight Management
+    url: "product/weight-management"
+    parent: programs
+    weight: 1
+  - name: PCOD/PCOS Reversal
+    url: "product/pcod-pcos-reversal"
+    parent: programs
+    weight: 2
+  - name: Diabetes Management
+    url: "product/diabetes-management"
+    parent: programs
+    weight: 3
+  - name: Stress Management
+    url: "product/stress-management"
+    parent: programs
+    weight: 4
+  - name: Gut Management
+    url: "product/gut-management"
+    parent: programs
+    weight: 5
+  - name: Thyroid Reversal
+    url: "product/thyroid-reversal"
+    parent: programs
+    weight: 6
+  - name: Hormone Balance
+    url: "product/hormone-balance"
+    parent: programs
+    weight: 7
+  - name: Infertility Therapy
+    url: "product/infertility-therapy"
+    parent: programs
+    weight: 8
+  - name: Holistic Wellness
+    url: "product/holistic-wellness"
+    parent: programs
+    weight: 9
   - name: Testimonials
     url: "#testimonial"
     weight: 6

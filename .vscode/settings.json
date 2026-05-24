@@ -1,5 +1,8 @@
 {
   "files.associations": {
     "*.html": "go"
+  },
+  "chat.tools.terminal.autoApprove": {
+    "pnpm": true
   }
 }

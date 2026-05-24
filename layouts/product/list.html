@@ -42,9 +42,13 @@
           <div class="product-item-grid">
             {{ range .Paginator.Pages }}
               <div class="product-item">
-                {{ $asset := resources.Get .Params.thumbnail }}
-                {{ $img := $asset.Resize "700x webp" }}
-                <img src="{{ $img.RelPermalink }}" class="product-item-thumb" alt="product-thumb" />
+                {{ $thumb := or .Params.thumbnail .Params.featureImage }}
+                {{ with resources.Get $thumb }}
+                  {{ $img := .Resize "700x webp" }}
+                  <img src="{{ $img.RelPermalink }}" class="product-item-thumb" alt="product-thumb" />
+                {{ else }}
+                  <img src="/images/product/portfolio-1.png" class="product-item-thumb" alt="product-thumb" />
+                {{ end }}
                 <div class="product-item-content">
                   <span>{{ .Params.categories }}</span>
                   <h3 class="mb-0">
