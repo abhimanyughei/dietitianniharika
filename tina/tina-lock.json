@@ -883,7 +883,6 @@
                 "type": "string",
                 "name": "youtube",
                 "label": "YouTube URL",
-                "ui": { "component": "YouTubePreview" },
                 "namespace": ["about_pages", "mentions", "youtube"],
                 "searchable": true,
                 "uid": false
