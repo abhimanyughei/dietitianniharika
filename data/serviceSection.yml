@@ -3,36 +3,42 @@ topTitle: Signature Plans
 title: >
   ## Experience Holistic Wellness
 
-  Discover personalized programs rooted in Ayurveda, modern nutrition, and mindful movement.
+  Discover personalized programs rooted in Ayurveda, modern nutrition, and
+  mindful movement.
 service:
   - content: >
       #### Weight Management Program
 
-      Achieve sustainable weight loss through metabolism-boosting guidance, mindful eating, and weekly progress support.
+      Achieve sustainable weight loss through metabolism-boosting guidance,
+      mindful eating, and weekly progress support.
     image: images/service/pistachio.png
   - content: >
       #### PCOD/PCOS Reversal Program
 
-      Balance hormones naturally with Ayurvedic herbs, sattvic foods, and lifestyle support for healthier cycles.
+      Balance hormones naturally with Ayurvedic herbs, sattvic foods, and
+      lifestyle support for healthier cycles.
     image: images/service/raisins.png
   - content: >
       #### Diabetes Management Program
 
-      Regulate blood sugar with holistic nutrition, cravings control, and lifestyle habits designed for long-term health.
+      Regulate blood sugar with holistic nutrition, cravings control, and
+      lifestyle habits designed for long-term health.
     image: images/service/dates.png
   - content: >
       #### Infertility Therapy Program
 
-      Improve reproductive vitality with nutrition, herbal protocols, and supportive coaching for conception readiness.
+      Improve reproductive vitality with nutrition, herbal protocols, and
+      supportive coaching for conception readiness.
     image: images/service/walnut.png
   - content: >
       #### Stress Relief & Wellness Program
 
-      Calm the nervous system with diet, herbs, breathwork, and mindful self-care to restore balance.
+      Calm the nervous system with diet, herbs, breathwork, and mindful
+      self-care to restore balance.
     image: images/service/saffron.png
   - content: >
       #### Holistic Wellness Program
 
-      Transform your health with an integrated plan of diet, movement, detox, and mental wellness.
+      Transform your health with an integrated plan of diet, movement, detox,
+      and mental wellness.
     image: images/service/barberry.png
-_template: service_template

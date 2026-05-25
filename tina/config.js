@@ -13,6 +13,7 @@ import {
   resume_templateFields,
   service_templateFields,
   testimonial_templateFields,
+  faq_templateFields,
 } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
@@ -122,6 +123,23 @@ export default defineConfig({
           include: "testimonialSection",
         },
         fields: testimonial_templateFields(),
+      },
+      {
+        format: "yml",
+        label: "HomePage - FAQ Section",
+        name: "faq",
+        path: "data",
+        frontmatterFormat: "yaml",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "faqSection",
+        },
+        fields: faq_templateFields(),
       },
       {
         format: "yml",

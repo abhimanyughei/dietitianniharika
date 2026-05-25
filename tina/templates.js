@@ -665,6 +665,63 @@ export function testimonial_templateFields() {
   ];
 }
 
+export function faq_templateFields() {
+  return [
+    {
+      type: "boolean",
+      name: "enable",
+      label: "enable",
+    },
+    {
+      type: "string",
+      name: "topTitle",
+      label: "topTitle",
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "title",
+      ui: {
+        component: "textarea",
+      },
+    },
+    {
+      type: "object",
+      name: "groups",
+      label: "Groups",
+      list: true,
+      fields: [
+        {
+          type: "string",
+          name: "heading",
+          label: "Heading",
+        },
+        {
+          type: "object",
+          name: "items",
+          label: "Items",
+          list: true,
+          fields: [
+            {
+              type: "string",
+              name: "question",
+              label: "Question",
+            },
+            {
+              type: "string",
+              name: "answer",
+              label: "Answer",
+              ui: {
+                component: "textarea",
+              },
+            },
+          ],
+        },
+      ],
+    },
+  ];
+}
+
 export function about_pages_templateFields() {
   return [
     {
