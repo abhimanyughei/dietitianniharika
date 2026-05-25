@@ -696,7 +696,7 @@ export function about_pages_templateFields() {
         { type: "string", name: "publisher", label: "Publisher" },
         { type: "string", name: "link", label: "Link" },
         { type: "image", name: "image", label: "Image" },
-        { type: "string", name: "youtube", label: "YouTube URL" },
+        { type: "string", name: "youtube", label: "YouTube Embedded URL" },
       ],
     },
     {

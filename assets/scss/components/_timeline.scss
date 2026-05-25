@@ -7,6 +7,12 @@
 .timeline-item {
   position: relative;
   left: 10px;
+  margin-bottom: 5rem; /* Gap between timeline items */
+
+  &:last-child {
+    margin-bottom: 0; /* No margin for the last item */
+  }
+
   h5 {
     position: relative;
 

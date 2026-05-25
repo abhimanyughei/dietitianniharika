@@ -8,8 +8,7 @@ mentions:
     publisher: HealthToday
     link: ""
     image: images/media/healthtoday.jpg
-    youtube: >-
-      https://www.youtube.com/watch?v=tK_pz1Nuom8&list=RDtK_pz1Nuom8&start_radio=1
+    youtube: "https://www.youtube.com/embed/Yq9tSF80yh4?si=YXR-BxVUlEtFZ2DL"
   - heading: Interview on Morning Wellness
     datetime: 2024-08-10T10:30:00.000Z
     publisher: Morning Wellness

@@ -45,7 +45,7 @@
             <div class="media-mentions">
               <ul class="timeline list-unstyled p-0">
                 {{ range sort . "datetime" "desc" }}
-                  <li class="timeline-item mb-4">
+                  <li class="timeline-item mb-12">
                     <div class="timeline-item__meta small text-muted">{{ dateFormat "January 2, 2006" .datetime }}</div>
                     <h5 class="mb-1">{{ .heading }}</h5>
                     <div class="small text-secondary">{{ .publisher }}</div>
@@ -56,7 +56,7 @@
                       <div class="mt-3"><img src="{{ .image | absURL }}" alt="{{ .heading }}" class="img-fluid" /></div>
                     {{ end }}
                     {{ if .youtube }}
-                      {{ $embed := .youtube | replace "watch?v=" "embed/" | replace "youtu.be/" "www.youtube.com/embed/" }}
+                      {{ $embed := .youtube }}
                       <div class="mt-3 embed-responsive embed-responsive-16by9">
                         <iframe
                           class="embed-responsive-item"

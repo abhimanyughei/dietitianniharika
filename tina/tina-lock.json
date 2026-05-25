@@ -882,7 +882,7 @@
               {
                 "type": "string",
                 "name": "youtube",
-                "label": "YouTube URL",
+                "label": "YouTube Embedded URL",
                 "namespace": ["about_pages", "mentions", "youtube"],
                 "searchable": true,
                 "uid": false
