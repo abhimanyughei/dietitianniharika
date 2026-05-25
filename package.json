@@ -79,7 +79,7 @@
     "@tinacms/cli": "^2.0.3",
     "auto-changelog": "^2.5.1",
     "autoprefixer": "^10.4.22",
-    "eslint": "^9.17.0",
+    "eslint": "^9.39.4",
     "exec-bin": "^1.0.0",
     "globals": "^15.14.0",
     "hugo-installer": "^4.0.1",
