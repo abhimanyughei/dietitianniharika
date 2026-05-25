@@ -1,8 +1,10 @@
 enable: true
 topTitle: Our Impact
-title: |
+title: >
   ## Wellness Milestones
-  Over 9000 clients, 7600 tailored plans and 5100 success stories of balanced living.
+
+  Over 9000 clients, 7600 tailored plans and 5100 success stories of balanced
+  living.
 tab1Name: Stats
 tab2Name: Credentials
 tab1Target: education
@@ -11,31 +13,33 @@ education:
   - content: |
       #### 9000+ Clients Served
       Personalized guidance for every wellness journey.!
-    image: /images/certificates/halal.jpg
-    url: 'https://www.dietitianniharika.in/'
+    image: /images/certificates/ClientServed.jpg
+    url: "https://www.dietitianniharika.in/"
   - content: |
       #### 7600+ Tailored Plans
       Customized programs rooted in Ayurveda and modern nutrition.
-    image: /images/certificates/images.png
-    url: 'https://www.dietitianniharika.in/'
+    image: /images/certificates/TailoredPlans.jpg
+    url: "https://www.dietitianniharika.in/"
   - content: |
       #### 5100+ Success Stories
       Life-changing results across weight, hormones, fertility and stress.
-    image: /images/certificates/iso.jpg
-    url: 'https://www.dietitianniharika.in/'
+    image: /images/certificates/SuccessStories.jpg
+    url: "https://www.dietitianniharika.in/"
 experience:
   - content: |
-      #### Nutritionist in Mohali
+      #### RYT 200 Certified Yoga Instructor
       Supporting clients locally and online with science-based wellness.
-    image: /images/certificates/Organic.png
-    url: 'https://www.dietitianniharika.in/'
-  - content: |
+    image: /images/certificates/YogaCertified.jpg
+    url: "https://www.dietitianniharika.in/"
+  - content: >
       #### Ayurvedic Wellness
-      Programs designed for hormonal balance, metabolic health and stress relief.
-    image: /images/certificates/enamad.png
-    url: 'https://www.dietitianniharika.in/'
-  - content: |
-      #### Personalized Support
-      Weekly check-ins, meal guidance and lifestyle coaching for sustainable results.
-    image: /images/certificates/halal.jpg
-    url: 'https://www.dietitianniharika.in/'
+      Programs designed for hormonal balance, metabolic health and stress
+      relief.
+    image: /images/certificates/Ayurved.jpg
+    url: "https://www.dietitianniharika.in/"
+  - content: >
+      #### Nutrition Coaching
+      Weekly check-ins, meal guidance and lifestyle coaching for sustainable
+      results.
+    image: /images/certificates/NutritionCoaching.jpg
+    url: "https://www.dietitianniharika.in/"
