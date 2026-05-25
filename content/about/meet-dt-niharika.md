@@ -6,7 +6,7 @@ description: >-
   Vibe.
 ---
 
-### Guiding You Towards Holistic Wellness, One Step at a Time...
+### Guiding You Towards Holistic Wellness, One Step at a Time
 
 With a deep commitment to holistic healing, Dt. Niharika Singh is a renowned clinical dietitian and wellness strategist, and the founder of Fitness Vibe, a wellness clinic combining Ayurveda with modern nutrition. As a trusted dietitian in Mohali, she specializes in personalized health solutions for hormonal health, fertility, gut recovery, and weight management.
 
