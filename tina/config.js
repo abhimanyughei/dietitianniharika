@@ -33,14 +33,14 @@ export default defineConfig({
   media: {
     tina: {
       mediaRoot: "images",
-      publicFolder: "static",
+      publicFolder: "assets",
     },
   },
   schema: {
     collections: [
       {
         format: "yml",
-        label: "Hero",
+        label: "HomePage - Header Section",
         name: "hero",
         path: "data",
         frontmatterFormat: "yaml",
@@ -57,7 +57,7 @@ export default defineConfig({
       },
       {
         format: "yml",
-        label: "About",
+        label: "HomePage - About Section",
         name: "about",
         path: "data",
         frontmatterFormat: "yaml",
@@ -74,7 +74,7 @@ export default defineConfig({
       },
       {
         format: "yml",
-        label: "Services",
+        label: "HomePage - Services Section",
         name: "services",
         path: "data",
         frontmatterFormat: "yaml",
@@ -91,7 +91,7 @@ export default defineConfig({
       },
       {
         format: "yml",
-        label: "Resume",
+        label: "HomePage - Stats Section",
         name: "resume",
         path: "data",
         frontmatterFormat: "yaml",
@@ -108,7 +108,7 @@ export default defineConfig({
       },
       {
         format: "yml",
-        label: "Testimonials",
+        label: "HomePage - Testimonials",
         name: "testimonials",
         path: "data",
         frontmatterFormat: "yaml",
@@ -125,7 +125,7 @@ export default defineConfig({
       },
       {
         format: "yml",
-        label: "Product Section",
+        label: "HomePage - Services Section",
         name: "product_section",
         path: "data",
         frontmatterFormat: "yaml",
@@ -142,7 +142,7 @@ export default defineConfig({
       },
       {
         format: "yml",
-        label: "Blog Section",
+        label: "HomePage - Blog Section",
         name: "blog_section",
         path: "data",
         frontmatterFormat: "yaml",
@@ -159,7 +159,7 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "Product",
+        label: "Menu - Programs Pages",
         name: "product",
         path: "content/product",
         frontmatterFormat: "yaml",
@@ -200,7 +200,7 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "Testimonials Pages",
+        label: "Menu - Testimonials Pages",
         name: "testimonials_pages",
         path: "content/testimonials",
         frontmatterFormat: "yaml",
@@ -270,7 +270,7 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "About Pages",
+        label: "Menu - Our Story Pages",
         name: "about_pages",
         path: "content/about",
         frontmatterFormat: "yaml",
