@@ -1,8 +1,8 @@
 ---
 title: "DIY Rosemary Hair Growth Spray – For Stronger, Longer, Healthier Hair Naturally! 🌿"
 date: 2025-06-27T08:00:00+05:30
-featureImage: images/allpost/allPost-7.jpg
-postImage: images/single-blog/blog-img.jpg
+featureImage: /images/allpost/allPost-7.jpg
+postImage: /images/single-blog/blog-img.jpg
 tags: [natural remedies, hair care, rosemary]
 categories: blog
 ---

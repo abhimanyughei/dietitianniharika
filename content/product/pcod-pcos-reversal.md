@@ -1,7 +1,7 @@
 ---
 title: "PCOD/PCOS Reversal Program: Balance Hormones Naturally"
 date: 2025-06-19T09:00:00+05:30
-thumbnail: images/product/portfolio-2.png
+thumbnail: /images/product/portfolio-2.png
 table:
   - title: Program
     description: PCOD/PCOS Reversal

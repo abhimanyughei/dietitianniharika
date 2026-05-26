@@ -1,4 +1,8 @@
 mounts:
+  - source: assets
+    target: assets
+  - source: static/images
+    target: assets/images
   - source: layouts
     target: layouts
   - source: node_modules/@hyas/images/layouts

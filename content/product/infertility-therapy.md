@@ -1,7 +1,7 @@
 ---
 title: "Infertility Therapy Program: Support Your Fertility Naturally"
 date: 2025-06-25T09:00:00+05:30
-thumbnail: images/product/portfolio-4.png
+thumbnail: /images/product/portfolio-4.png
 table:
   - title: Program
     description: Infertility Therapy

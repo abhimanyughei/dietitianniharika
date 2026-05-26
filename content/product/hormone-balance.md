@@ -1,7 +1,7 @@
 ---
 title: "Hormone Balance Program: Restore Your Natural Rhythm"
 date: 2025-06-24T09:00:00+05:30
-thumbnail: images/product/portfolio-3.png
+thumbnail: /images/product/portfolio-3.png
 table:
   - title: Program
     description: Hormone Balance

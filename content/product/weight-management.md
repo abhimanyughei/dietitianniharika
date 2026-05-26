@@ -1,7 +1,7 @@
 ---
 title: "Weight Management Program: Sustainable Fat Loss with Ayurveda"
 date: 2025-06-18T09:00:00+05:30
-thumbnail: images/product/portfolio-1.png
+thumbnail: /images/product/portfolio-1.png
 table:
   - title: Program
     description: Weight Management

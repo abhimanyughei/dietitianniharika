@@ -1,7 +1,7 @@
 ---
 title: "Diabetes Management Program: Stabilize Blood Sugar Naturally"
 date: 2025-06-20T09:00:00+05:30
-thumbnail: images/product/portfolio-3.png
+thumbnail: /images/product/portfolio-3.png
 table:
   - title: Program
     description: Diabetes Management

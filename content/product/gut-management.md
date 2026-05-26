@@ -1,7 +1,7 @@
 ---
 title: "Gut Management Program: Restore Digestion and Immunity"
 date: 2025-06-22T09:00:00+05:30
-thumbnail: images/product/portfolio-1.png
+thumbnail: /images/product/portfolio-1.png
 table:
   - title: Program
     description: Gut Management

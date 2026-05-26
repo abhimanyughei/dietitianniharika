@@ -1,7 +1,7 @@
 ---
 title: "Holistic Wellness Program: Total Health Transformation"
 date: 2025-06-26T09:00:00+05:30
-thumbnail: images/product/portfolio-1.png
+thumbnail: /images/product/portfolio-1.png
 table:
   - title: Program
     description: Holistic Wellness

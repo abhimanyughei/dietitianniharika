@@ -1,7 +1,7 @@
 ---
 title: "Stress Management Program: Calm Your Body and Mind"
 date: 2025-06-21T09:00:00+05:30
-thumbnail: images/product/portfolio-4.png
+thumbnail: /images/product/portfolio-4.png
 table:
   - title: Program
     description: Stress Management
