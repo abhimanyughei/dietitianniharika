@@ -1,7 +1,7 @@
 ---
 title: "Diabetes Management Program: Stabilize Blood Sugar Naturally"
 date: 2025-06-20T09:00:00+05:30
-thumbnail: images/product/portfolio-3.png
+thumbnail: /images/product/diabities.jpg
 table:
   - title: Program
     description: Diabetes Management
@@ -9,8 +9,6 @@ table:
     description: 12 Weeks
   - title: Focus
     description: Blood Sugar Control
-  - title: Support
-    description: Nutrition Coaching
 categories: Diabetes Management
 shortDescription: Manage diabetes with a natural program focused on balanced meals, blood sugar control, and lifestyle habits backed by modern and Ayurvedic wisdom.
 tags: [diabetes, blood sugar, nutrition, Ayurveda]

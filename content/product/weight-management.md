@@ -1,7 +1,7 @@
 ---
 title: "Weight Management Program: Sustainable Fat Loss with Ayurveda"
 date: 2025-06-18T09:00:00+05:30
-thumbnail: images/product/portfolio-1.png
+thumbnail: /images/product/weight.jpg
 table:
   - title: Program
     description: Weight Management
@@ -9,8 +9,7 @@ table:
     description: 90 Days
   - title: Focus
     description: Metabolism, Fat Loss
-  - title: Support
-    description: Weekly Check-ins
+
 categories: Weight Management
 shortDescription: Achieve sustainable weight loss with a plan that blends metabolism-boosting nutrition, mindful eating, and personalized progress tracking.
 tags: [weight management, healthy weight, Ayurveda]

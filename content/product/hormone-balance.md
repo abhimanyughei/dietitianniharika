@@ -1,7 +1,7 @@
 ---
 title: "Hormone Balance Program: Restore Your Natural Rhythm"
 date: 2025-06-24T09:00:00+05:30
-thumbnail: images/product/portfolio-3.png
+thumbnail: /images/product/hormone.jpg
 table:
   - title: Program
     description: Hormone Balance
@@ -9,8 +9,7 @@ table:
     description: 10 Weeks
   - title: Focus
     description: Endocrine Wellness
-  - title: Support
-    description: Stress & Sleep
+
 categories: Hormone Balance
 shortDescription: Restore hormone balance with a holistic program that harmonizes nutrition, stress, sleep, and lifestyle for better wellbeing.
 tags: [hormone balance, endocrine health, Ayurveda]

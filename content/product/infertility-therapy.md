@@ -1,7 +1,7 @@
 ---
 title: "Infertility Therapy Program: Support Your Fertility Naturally"
 date: 2025-06-25T09:00:00+05:30
-thumbnail: images/product/portfolio-4.png
+thumbnail: /images/product/infertility.jpg
 table:
   - title: Program
     description: Infertility Therapy
@@ -9,8 +9,7 @@ table:
     description: 12 Weeks
   - title: Focus
     description: Fertility Support
-  - title: Support
-    description: Reproductive Nutrition
+
 categories: Infertility Therapy
 shortDescription: Enhance fertility with a natural therapy program that combines nutrition, lifestyle changes, and Ayurvedic care for reproductive wellbeing.
 tags: [infertility, fertility, reproductive health]

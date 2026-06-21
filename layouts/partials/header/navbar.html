@@ -6,9 +6,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
     <a href="{{ .Site.BaseURL }}" class="navbar-brand">
-      {{ $asset := resources.Get .Site.Params.logo }}
-      {{ $img := $asset.Fit "600x200 webp" }}
-      <img style="width: 150px; height: 50px; object-fit: contain" src="{{ $img.RelPermalink }}" alt="site-logo" />
+      <img style="width: 150px; height: 50px; object-fit: contain" src="{{ .Site.Params.logo | relURL }}" alt="site-logo" />
     </a>
     <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>

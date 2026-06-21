@@ -26,9 +26,7 @@
                 {{ range $Section }}
                   <div class="resume__education_item d-flex flex-nowrap">
                     <a href="{{ .url }}">
-                      {{ $asset := resources.Get .image }}
-                      {{ $img := $asset.Resize "300x webp" }}
-                      <img alt="certificate" class="resume__education_item_image" src="{{ $img.RelPermalink }}" />
+                      <img alt="certificate" class="resume__education_item_image" src="{{ .image | relURL }}" />
                     </a>
                     <div>{{ .content | markdownify }}</div>
                   </div>
@@ -40,9 +38,7 @@
                 {{ range $Section }}
                   <div class="resume__education_item d-flex flex-nowrap">
                     <a href="{{ .url }}">
-                      {{ $asset := resources.Get .image }}
-                      {{ $img := $asset.Resize "300x webp" }}
-                      <img class="resume__education_item_image" alt="certificate" src="{{ $img.RelPermalink }}" />
+                      <img class="resume__education_item_image" alt="certificate" src="{{ .image | relURL }}" />
                     </a>
                     <div>{{ .content | markdownify }}</div>
                   </div>

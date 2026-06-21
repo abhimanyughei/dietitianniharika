@@ -1,7 +1,7 @@
 ---
 title: "Thyroid Reversal Program: Support Your Metabolism Naturally"
 date: 2025-06-23T09:00:00+05:30
-thumbnail: images/product/portfolio-2.png
+thumbnail: /images/product/thyroid.jpg
 table:
   - title: Program
     description: Thyroid Reversal
@@ -9,8 +9,7 @@ table:
     description: 12 Weeks
   - title: Focus
     description: Metabolism & Hormone Support
-  - title: Support
-    description: Nutrition & Lifestyle
+
 categories: Thyroid Reversal
 shortDescription: Support thyroid health with a natural reversal program that balances metabolism, energy, and hormone function through nutrition and lifestyle.
 tags: [thyroid, metabolism, hormonal health]

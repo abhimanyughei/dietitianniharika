@@ -1,8 +1,8 @@
 ---
 title: "Why You Should Go Nuts for Nuts"
 date: 2020-07-13T12:49:27+06:00
-featureImage: images/allpost/allPost-1.jpg
-postImage: images/single-blog/feature-image.jpg
+featureImage: /images/allpost/allPost-1.jpg
+postImage: /images/single-blog/feature-image.jpg
 tags: fun
 categories: blog
 toc: true
@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 The company was previously known as Hingston + Co. but has been given a complete rebrand — including a new logo, tap badges, website and branded material — by London-based design studio & Smith. The new identity is based on the Kandinsky abstract painting, Black Lines, and true to its name, is mostly black and white with a few flashes of colour. According to & Smith, the identity brings together “art and science” and has been brought to life through collaborations with nine illustrators.
 
-{{< figure link="https://www.example.com/" width="1000" src="images/single-blog/blog-img.jpg" alt="Describe your image" caption="For a figure caption can be different than alt text" >}}
+{{< figure link="https://www.example.com/" width="1000" src="/images/single-blog/blog-img.jpg" alt="Describe your image" caption="For a figure caption can be different than alt text" >}}
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 

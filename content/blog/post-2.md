@@ -1,8 +1,8 @@
 ---
 title: "Wheat vs Millets: What’s Better for You? 🌾"
 date: 2025-06-27T08:00:00+05:30
-featureImage: images/allpost/allPost-2.jpg
-postImage: images/single-blog/blog-img.jpg
+featureImage: /images/allpost/allPost-2.jpg
+postImage: /images/single-blog/blog-img.jpg
 tags: [millets, digestion, PCOS, healthy living]
 categories: blog
 ---

@@ -43,9 +43,8 @@
             {{ range .Paginator.Pages }}
               <div class="product-item">
                 {{ $thumb := or .Params.thumbnail .Params.featureImage }}
-                {{ with resources.Get $thumb }}
-                  {{ $img := .Resize "700x webp" }}
-                  <img src="{{ $img.RelPermalink }}" class="product-item-thumb" alt="product-thumb" />
+                {{ with $thumb }}
+                  <img src="{{ . | relURL }}" class="product-item-thumb" alt="product-thumb" />
                 {{ else }}
                   <img src="/images/product/portfolio-1.png" class="product-item-thumb" alt="product-thumb" />
                 {{ end }}

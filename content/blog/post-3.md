@@ -1,8 +1,8 @@
 ---
 title: "The Magical Healing Power of Epsom Salt Foot Soaks 🧂✨"
 date: 2025-06-27T08:00:00+05:30
-featureImage: images/allpost/allPost-5.jpg
-postImage: images/single-blog/blog-img.jpg
+featureImage: /images/allpost/allPost-5.jpg
+postImage: /images/single-blog/blog-img.jpg
 tags: [epsom salt, wellness, relaxation]
 categories: blog
 ---

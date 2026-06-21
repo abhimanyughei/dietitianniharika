@@ -13,8 +13,8 @@ outputs:
 mediaTypes:
   text/netlify:
     suffixes:
-      - ''
-    delimiter: ''
+      - ""
+    delimiter: ""
 outputFormats:
   REDIRECTS:
     mediatype: text/netlify
@@ -28,14 +28,14 @@ outputFormats:
     notAlternative: true
 caches:
   getjson:
-    dir: ':cacheDir/:project'
+    dir: ":cacheDir/:project"
     maxAge: 10s
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 0.5
 permalinks:
-  blog: 'blog/:title/'
+  blog: "blog/:title/"
 minify:
   tdewolff:
     html:
@@ -51,7 +51,7 @@ related:
       weight: 10
 build:
   writeStats: true
-baseURL: 'https://abhimanyughei.github.io/dietitianniharika'
+baseURL: "http://localhost:1313/"
 languageCode: en-us
-title: 'Fitness Vibe By Dt. Niharika '
+title: "Fitness Vibe By Dt. Niharika "
 paginate: 6
