@@ -1,11 +1,8 @@
 enable: true
-topTitle: UNLOCK YOUR CUSTOM PLAN TODAY..!
-content: >
+topTitle: UNLOCK YOUR CUSTOM PLAN TODAY..!!
+content: |
   # Tailored Diet Plans for Your Body, Mind & Soul
-
-  Ancient wisdom and scientific precision combined to help you heal from within,
-  restore balance, and feel truly energized.
+  Ancient wisdom and scientific precision combined to help you heal from within, restore balance, and feel truly energized.
 buttonName: Enroll Today
 buttonURL: contact
 image: /images/from-source/dt-niharika.jpg
-_template: hero_template
