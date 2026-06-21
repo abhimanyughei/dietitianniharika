@@ -43,10 +43,8 @@
               <div class="figure-svg">
                 <img src="images/hero/figure-svg.svg" alt="figure-svg" />
               </div>
-              {{ $asset := resources.Get .image }}
-              {{ $img := $asset.Fit "1500x1000 webp" }}
               <img
-                src="{{ $img.RelPermalink }}"
+                src="{{ .image | relURL }}"
                 alt="hero-image"
                 style="
                   -webkit-mask: url({{ "images/hero/hero-mask-svg.png" | absURL }});
@@ -58,9 +56,7 @@
               {{ if .videoURL }}
                 <div class="hero_figure-popup">
                   <div class="thumb">
-                    {{ $asset := resources.Get .videoThumb }}
-                    {{ $img := $asset.Fit "320x180 webp" }}
-                    <img src="{{ $img.RelPermalink }}" alt="popup" />
+                    <img src="{{ .videoThumb | relURL }}" alt="popup" />
                   </div>
 
                   <a href="{{ .videoURL }}" type="button" class="popup-button text-center big">

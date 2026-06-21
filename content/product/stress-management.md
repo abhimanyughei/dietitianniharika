@@ -1,7 +1,7 @@
 ---
 title: "Stress Management Program: Calm Your Body and Mind"
 date: 2025-06-21T09:00:00+05:30
-thumbnail: /images/product/portfolio-4.png
+thumbnail: /images/product/stress.jpg
 table:
   - title: Program
     description: Stress Management
@@ -9,8 +9,7 @@ table:
     description: 8 Weeks
   - title: Focus
     description: Mind-Body Balance
-  - title: Support
-    description: Relaxation Practices
+
 categories: Stress Management
 shortDescription: Reduce stress with a holistic management program that combines nutrition, breathwork, Ayurvedic remedies, and mindfulness practices.
 tags: [stress management, anxiety relief, wellness]

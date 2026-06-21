@@ -160,6 +160,7 @@
       "fa-tag",
       "fa-twitter-square",
       "fa-ul",
+      "fa-whatsapp",
       "faq",
       "faq-answer",
       "faq-group",
@@ -326,7 +327,8 @@
       "tracking-tight",
       "unstyle-list",
       "w-100",
-      "w-full"
+      "w-full",
+      "whatsapp-icon"
     ],
     "ids": [
       "5100-success-stories",

@@ -3,14 +3,14 @@ images:
   - favicon.ico
 ogLocale: en_US
 titleHome: Dt. Niharika Singh - Nutritionist & Dietitian
-twitterSite: "@dt.niharika_singh"
-twitterCreator: "@dt.niharika_singh"
+twitterSite: '@dt.niharika_singh'
+twitterCreator: '@dt.niharika_singh'
 schemaType: Organization
 schemaName: Fitness Vibe by Dt. Niharika
 schemaAuthor: Dt. Niharika Singh
-schemaAuthorTwitter: ""
-schemaAuthorLinkedIn: ""
-schemaAuthorGitHub: ""
+schemaAuthorTwitter: ''
+schemaAuthorLinkedIn: ''
+schemaAuthorGitHub: ''
 schemaLocale: en-US
 schemaLogo: logo-hyas.png
 schemaLogoWidth: 512
@@ -18,10 +18,10 @@ schemaLogoHeight: 512
 schemaImage: hyas.png
 schemaImageWidth: 1280
 schemaImageHeight: 640
-schemaTwitter: ""
-schemaLinkedIn: ""
-schemaGitHub: ""
-themeColor: "#3ac58d"
+schemaTwitter: ''
+schemaLinkedIn: ''
+schemaGitHub: ''
+themeColor: '#3ac58d'
 landscapePhotoWidths:
   - 900
   - 800
@@ -34,16 +34,16 @@ portraitPhotoWidths:
   - 600
   - 500
 lqipWidth: 20x
-smallLimit: "320"
+smallLimit: '320'
 imageResponsive: true
 imageConvertTo: webp
 imageImageSizes:
-  - "480"
-  - "720"
-  - "1080"
-  - "1280"
-  - "1600"
-  - "2048"
+  - '480'
+  - '720'
+  - '1080'
+  - '1280'
+  - '1600'
+  - '2048'
 singleSize: false
 imageAddClass: img-fluid lazyload blur-up
 defaultImage: default-image.png
@@ -52,12 +52,12 @@ footerContact:
   topTitle: Let's Start
   title: The Start of a Dream
   button: Get in Touch
-titleSeparator: "-"
+titleSeparator: '-'
 description: >-
   Personalized diet, nutrition, and Ayurvedic wellness plans by Dt. Niharika
   Singh for PCOS, thyroid, diabetes, infertility, weight management, and
   long-term health.
-alert: true
+alert: false
 alertDismissable: true
 alertText: >-
   Deliver web projects 10x faster. <a class="alert-link"
@@ -69,7 +69,7 @@ footerLogo: images/site-navigation/logo.jpg
 contactLink: contact
 copyright: All right reserved copyright © Fitness Vibe 2035
 googleAnalytics: YOUR GOOGLE ANALYTICS CODE
-fabformURL: "https://fabform.io/f/JpTXRUa"
+fabformURL: 'https://fabform.io/f/JpTXRUa'
 address:
   phone: +91 8305779442
   email: info@dietitianniharika.in
@@ -79,7 +79,7 @@ address:
   openingHours: Open from 10am to 6pm (close at 5pm Sundays)
 map:
   APIkey: YOUR GOOGLE MAP API
-  latitude: "23.7783741"
-  longitude: "90.3746808"
+  latitude: '23.7783741'
+  longitude: '90.3746808'
   pinImage: images/pin.png
 social: {}

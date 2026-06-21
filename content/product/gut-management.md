@@ -1,7 +1,7 @@
 ---
 title: "Gut Management Program: Restore Digestion and Immunity"
 date: 2025-06-22T09:00:00+05:30
-thumbnail: /images/product/portfolio-1.png
+thumbnail: /images/product/gut.jpg
 table:
   - title: Program
     description: Gut Management
@@ -9,8 +9,7 @@ table:
     description: 8 Weeks
   - title: Focus
     description: Digestion, Immunity
-  - title: Support
-    description: Gut Reset Habits
+
 categories: Gut Health
 shortDescription: Heal your gut with a balanced program that supports digestion, immunity, and energy through nutrition, probiotics, and mindful eating.
 tags: [gut health, digestion, microbiome, Ayurveda]

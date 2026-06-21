@@ -1,7 +1,7 @@
 ---
 title: "PCOD/PCOS Reversal Program: Balance Hormones Naturally"
 date: 2025-06-19T09:00:00+05:30
-thumbnail: /images/product/portfolio-2.png
+thumbnail: /images/product/pcod.jpg
 table:
   - title: Program
     description: PCOD/PCOS Reversal
@@ -9,8 +9,7 @@ table:
     description: 12 Weeks
   - title: Focus
     description: Hormone Balance
-  - title: Support
-    description: Sattvic Meal Plan
+
 categories: PCOD/PCOS
 shortDescription: Balance hormones naturally with a plan that uses Ayurvedic herbs, nutrient-rich foods, and lifestyle changes to support healthier menstrual cycles.
 tags: [pcod, pcos, hormonal balance, Ayurveda]

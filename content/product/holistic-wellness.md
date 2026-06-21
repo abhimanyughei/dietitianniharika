@@ -1,7 +1,7 @@
 ---
 title: "Holistic Wellness Program: Total Health Transformation"
 date: 2025-06-26T09:00:00+05:30
-thumbnail: /images/product/portfolio-1.png
+thumbnail: /images/product/holistic.jpg
 table:
   - title: Program
     description: Holistic Wellness
@@ -9,8 +9,7 @@ table:
     description: 12 Weeks
   - title: Focus
     description: Total Wellbeing
-  - title: Support
-    description: Detox & Mindfulness
+
 categories: Holistic Wellness
 shortDescription: Transform your health with a holistic wellness program that combines nutrition, movement, mindfulness, and detox for lasting vitality.
 tags: [holistic wellness, detox, wellbeing]
