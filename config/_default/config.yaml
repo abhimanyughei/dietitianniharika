@@ -51,7 +51,7 @@ related:
       weight: 10
 build:
   writeStats: true
-baseURL: "http://localhost:1313/"
+baseURL: "https://dietitian.fitnessvibe.in/"
 languageCode: en-us
 title: "Fitness Vibe By Dt. Niharika "
 paginate: 6
