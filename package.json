@@ -88,7 +88,7 @@
     "netlify-plugin-submit-sitemap": "^0.4.0",
     "postcss": "^8.5.15",
     "postcss-cli": "^11.0.0",
-    "prettier": "^3.3.3",
+    "prettier": "^3.8.3",
     "prettier-plugin-go-template": "^0.0.15",
     "pretty-quick": "^4.0.0",
     "purgecss-whitelister": "^2.4.0",
