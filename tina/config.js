@@ -214,7 +214,16 @@ export default defineConfig({
         match: {
           include: "**/*",
         },
-        fields: blog_templateFields(),
+        fields: [
+          ...blog_templateFields(),
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Blog Content",
+            description: "Main markdown body of the blog post",
+            isBody: true,
+          },
+        ],
       },
       {
         format: "md",
