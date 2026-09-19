@@ -1,10 +1,10 @@
 ---
-title: 5 Health Benefits of Eating Nuts
-date: 2020-07-13T12:49:27.000+06:00
-featureImage: /images/allpost/allPost-8.jpg
+title: "Are nuts good for you?"
+date: 2020-07-13T12:49:27+06:00
+featureImage: /images/allpost/allPost-9.jpg
 postImage: /images/single-blog/feature-image.jpg
-tags: fun
-categories: documentation
+tags: [nuts, healthy eating, nutrition, wellness]
+categories: Nutrition
 toc: true
 ---
 

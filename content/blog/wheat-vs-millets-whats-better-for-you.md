@@ -4,7 +4,7 @@ date: 2025-06-27T08:00:00+05:30
 featureImage: /images/allpost/allPost-2.jpg
 postImage: /images/single-blog/blog-img.jpg
 tags: [millets, digestion, PCOS, healthy living]
-categories: blog
+categories: Nutrition
 ---
 
 Across India and globally, health-conscious individuals are shifting away from processed wheat — not as a trend, but as a return to ancestral, healing foods. Let’s explore why millets are rising in popularity and whether you should make the switch too.

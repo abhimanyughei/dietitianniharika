@@ -3,8 +3,8 @@ title: "DIY Rosemary Hair Growth Spray – For Stronger, Longer, Healthier Hair 
 date: 2025-06-27T08:00:00+05:30
 featureImage: /images/allpost/allPost-7.jpg
 postImage: /images/single-blog/blog-img.jpg
-tags: [natural remedies, hair care, rosemary]
-categories: blog
+tags: [rosemary, natural remedies, hair care, scalp health]
+categories: Hair Care
 ---
 
 Are you tired of excessive hair fall, dullness, or a dry scalp? Before turning to expensive products loaded with chemicals, try this simple and effective DIY hair growth spray made with the healing power of rosemary.
