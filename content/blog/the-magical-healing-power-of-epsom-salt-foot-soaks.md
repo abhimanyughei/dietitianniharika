@@ -5,6 +5,7 @@ featureImage: /images/allpost/allPost-5.jpg
 postImage: /images/single-blog/blog-img.jpg
 tags: [epsom salt, foot soak, relaxation, stress relief]
 categories: Wellness
+description: "Discover the calming, restorative benefits of Epsom salt foot soaks for stress relief, sore feet, better sleep, and natural self-care."
 ---
 
 Tired legs after a long day? Struggling with stress or sleepless nights? You might just need a simple, age-old remedy hiding in your kitchen — Epsom salt.

@@ -5,6 +5,7 @@ featureImage: /images/allpost/allPost-8.jpg
 postImage: /images/single-blog/feature-image.jpg
 tags: [nuts, heart health, healthy fats, wellness]
 categories: Nutrition
+description: "Discover the top health benefits of eating nuts, from heart support to better energy, satiety, and everyday wellness."
 toc: true
 ---
 

@@ -5,6 +5,7 @@ featureImage: /images/allpost/allPost-9.jpg
 postImage: /images/single-blog/feature-image.jpg
 tags: [nuts, healthy eating, nutrition, wellness]
 categories: Nutrition
+description: "Learn whether nuts are good for you and how they support heart health, weight management, and long-term nutrition."
 toc: true
 ---
 

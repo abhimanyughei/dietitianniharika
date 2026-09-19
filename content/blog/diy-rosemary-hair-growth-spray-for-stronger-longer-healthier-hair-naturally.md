@@ -5,6 +5,7 @@ featureImage: /images/allpost/allPost-7.jpg
 postImage: /images/single-blog/blog-img.jpg
 tags: [rosemary, natural remedies, hair care, scalp health]
 categories: Hair Care
+description: "Create a simple rosemary hair growth spray at home to support scalp health, reduce hair fall, and naturally encourage stronger, shinier hair."
 ---
 
 Are you tired of excessive hair fall, dullness, or a dry scalp? Before turning to expensive products loaded with chemicals, try this simple and effective DIY hair growth spray made with the healing power of rosemary.

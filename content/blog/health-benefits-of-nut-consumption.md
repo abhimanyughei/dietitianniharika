@@ -5,6 +5,7 @@ featureImage: /images/allpost/allPost-6.jpg
 postImage: /images/single-blog/feature-image.jpg
 tags: [nuts, heart health, healthy fats, nutrition]
 categories: Nutrition
+description: "Explore the many health benefits of nut consumption, including heart health, satiety, nutrients, and simple ways to add them to your diet."
 ---
 
 ## Health Benefits of Nut Consumption

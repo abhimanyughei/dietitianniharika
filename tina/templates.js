@@ -90,7 +90,7 @@ export function blog_templateFields() {
     {
       type: "string",
       name: "title",
-      label: "Title",
+      label: "Title | Meta Title",
     },
     {
       type: "datetime",
@@ -116,6 +116,14 @@ export function blog_templateFields() {
       type: "string",
       name: "categories",
       label: "Categories",
+    },
+    {
+      type: "string",
+      name: "description",
+      label: "Description | Meta Description",
+      ui: {
+        component: "textarea",
+      },
     },
   ];
 }

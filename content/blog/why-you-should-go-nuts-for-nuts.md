@@ -5,6 +5,7 @@ featureImage: /images/allpost/allPost-1.jpg
 postImage: /images/single-blog/feature-image.jpg
 tags: [nuts, healthy eating, nutrition, wellness]
 categories: Nutrition
+description: "Find out why nuts deserve a regular place in your diet for nutrition, energy, heart health, and daily wellness."
 toc: true
 ---
 
