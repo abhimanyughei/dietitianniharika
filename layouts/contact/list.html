@@ -36,13 +36,6 @@
       </div>
     </div>
   </header>
-  <section class="section contact__info">
-    <div class="container">
-      <div class="row">
-        {{ partial "discovery_form.html" . }}
-      </div>
-    </div>
-  </section>
   {{ $address := .Site.Params.address }}
   <section class="section contact__info">
     <div class="container">
@@ -122,7 +115,8 @@
           <div class="contact-form-title">
             <h3>Contact Form</h3>
           </div>
-
+<iframe data-tally-src="https://tally.so/embed/aQWv09?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="422" frameborder="0" marginheight="0" marginwidth="0" title="Contact Us"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
           <div class="contact-form-input">
             <form id="contact-form" action="{{ .Site.Params.fabformURL }}" method="POST">
               <div class="form-row">
