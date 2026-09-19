@@ -3,8 +3,9 @@ title: "Why You Should Go Nuts for Nuts"
 date: 2020-07-13T12:49:27+06:00
 featureImage: /images/allpost/allPost-1.jpg
 postImage: /images/single-blog/feature-image.jpg
-tags: fun
-categories: blog
+tags: [nuts, healthy eating, nutrition, wellness]
+categories: Nutrition
+description: "Find out why nuts deserve a regular place in your diet for nutrition, energy, heart health, and daily wellness."
 toc: true
 ---
 

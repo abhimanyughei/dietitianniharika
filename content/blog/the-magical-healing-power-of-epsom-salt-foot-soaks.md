@@ -3,8 +3,9 @@ title: "The Magical Healing Power of Epsom Salt Foot Soaks 🧂✨"
 date: 2025-06-27T08:00:00+05:30
 featureImage: /images/allpost/allPost-5.jpg
 postImage: /images/single-blog/blog-img.jpg
-tags: [epsom salt, wellness, relaxation]
-categories: blog
+tags: [epsom salt, foot soak, relaxation, stress relief]
+categories: Wellness
+description: "Discover the calming, restorative benefits of Epsom salt foot soaks for stress relief, sore feet, better sleep, and natural self-care."
 ---
 
 Tired legs after a long day? Struggling with stress or sleepless nights? You might just need a simple, age-old remedy hiding in your kitchen — Epsom salt.

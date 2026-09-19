@@ -3,8 +3,9 @@ title: "N6 healthiest nuts: Protein and other benefits"
 date: 2020-07-13T12:49:27+06:00
 featureImage: /images/allpost/allPost-3.jpg
 postImage: /images/single-blog/feature-image.jpg
-tags: website
-categories: documentation
+tags: [nuts, protein, healthy eating, nutrition]
+categories: Nutrition
+description: "Compare the healthiest nuts for protein, fiber, and overall nutrition to choose the best options for your daily wellness routine."
 toc: true
 ---
 
